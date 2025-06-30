@@ -1,14 +1,13 @@
-## Minor release
+## Release anticipating new ggplot2 release.
 
-- Input files from julia version of RABBIT can now be read.
+- No user visual changes
 
 ----
 
 ## Test environments
 
-* local Windows 11 install, R 4.4.2
+* local Windows 11 install, R 4.5.1
 * winbuilder (devel)
-* macbuilder (release)
 * Ubuntu (on github actions, devel and release)
 * macOS (on github actions, release)
 

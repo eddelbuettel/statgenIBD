@@ -1,3 +1,7 @@
+# statgenIBD 1.0.9
+
+-   Functions no longer rely on soft-deprecated ggplot2 functions.
+
 # statgenIBD 1.0.8
 
 -   `readRabbit` now reads input files produced by the open source version of RABBIT, available at <https://github.com/Biometris/RABBIT>
