@@ -18,3 +18,4 @@ public
 developmentScripts
 pkgdown
 revdep
+^CRAN-SUBMISSION$

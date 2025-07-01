@@ -76,7 +76,7 @@ We will demonstrate the basic functionality of the package using some example da
 
 ### Steptoe Morex
 
-The first example is the Steptoe Morex data, described by [@Hayes1993]. This is a population of 150 barley doubled haploid lines with parentage Steptoe / Morex. The population was developed for the North American Barley Genome Mapping Project by the Oregon State University Barley Breeding Program. For a full description see the [website](https://wheat.pw.usda.gov/ggpages/SxM/) of the program.
+The first example is the Steptoe Morex data, described by [@Hayes1993]. This is a population of 150 barley doubled haploid lines with parentage Steptoe / Morex. The population was developed for the North American Barley Genome Mapping Project by the Oregon State University Barley Breeding Program. For a full description see the of the program (currently offline).
 
 The map and genotypic file for this population are included in the package.
 
