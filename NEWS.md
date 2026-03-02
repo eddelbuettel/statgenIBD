@@ -1,3 +1,7 @@
+# statgenIBD 1.0.10
+
+-   No user visual changes.  
+
 # statgenIBD 1.0.9
 
 -   Functions no longer rely on soft-deprecated ggplot2 functions.

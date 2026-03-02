@@ -1,4 +1,4 @@
-## Release anticipating new ggplot2 release.
+## Minor release addressing issue with Rf_error.
 
 - No user visual changes
 
@@ -6,7 +6,7 @@
 
 ## Test environments
 
-* local Windows 11 install, R 4.5.1
+* local Windows 11 install, R 4.5.2
 * winbuilder (devel)
 * Ubuntu (on github actions, devel and release)
 * macOS (on github actions, release)
