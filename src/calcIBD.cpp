@@ -141,7 +141,7 @@ List calcIBD(CharacterVector& popType,
   }
   catch (...)
   {
-    ::Rf_error("c++ exception (unknown reason)");
+    Rcpp::stop("c++ exception (unknown reason)");
   }
   const int npar = parents.size();
   const int M = positions.size();

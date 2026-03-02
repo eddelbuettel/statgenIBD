@@ -42,7 +42,7 @@ Imports:
     statgenGWAS (>= 1.0.9),
     stringi
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)
 Suggests: 
     rmarkdown,
