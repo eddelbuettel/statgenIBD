@@ -99,8 +99,8 @@ using namespace ibd;
 List calcIBD(CharacterVector& popType,
              CharacterVector& markerFile,
              CharacterVector& mapFile,
-             Nullable<DataFrame&> evalPos = R_NilValue,
-             Nullable<NumericVector&> evalDist = R_NilValue,
+             Nullable<DataFrame> evalPos = R_NilValue,
+             Nullable<NumericVector> evalDist = R_NilValue,
              const bool& grid = true,
              const bool& verbose = false)
 {
@@ -126,7 +126,7 @@ List calcIBD(CharacterVector& popType,
                    _poptype,
                    Rcpp::as<std::string>(markerFile),
                    Rcpp::as<std::string>(mapFile),
-                   evalPos,
+                   Rcpp::DataFrame(evalPos),
                    max_step_size,
                    grid,
                    verbose);

@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // calcIBD
-List calcIBD(CharacterVector& popType, CharacterVector& markerFile, CharacterVector& mapFile, Nullable<DataFrame&> evalPos, Nullable<NumericVector&> evalDist, const bool& grid, const bool& verbose);
+List calcIBD(CharacterVector& popType, CharacterVector& markerFile, CharacterVector& mapFile, Nullable<DataFrame> evalPos, Nullable<NumericVector> evalDist, const bool& grid, const bool& verbose);
 RcppExport SEXP _statgenIBD_calcIBD(SEXP popTypeSEXP, SEXP markerFileSEXP, SEXP mapFileSEXP, SEXP evalPosSEXP, SEXP evalDistSEXP, SEXP gridSEXP, SEXP verboseSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
@@ -20,8 +20,8 @@ BEGIN_RCPP
     Rcpp::traits::input_parameter< CharacterVector& >::type popType(popTypeSEXP);
     Rcpp::traits::input_parameter< CharacterVector& >::type markerFile(markerFileSEXP);
     Rcpp::traits::input_parameter< CharacterVector& >::type mapFile(mapFileSEXP);
-    Rcpp::traits::input_parameter< Nullable<DataFrame&> >::type evalPos(evalPosSEXP);
-    Rcpp::traits::input_parameter< Nullable<NumericVector&> >::type evalDist(evalDistSEXP);
+    Rcpp::traits::input_parameter< Nullable<DataFrame> >::type evalPos(evalPosSEXP);
+    Rcpp::traits::input_parameter< Nullable<NumericVector> >::type evalDist(evalDistSEXP);
     Rcpp::traits::input_parameter< const bool& >::type grid(gridSEXP);
     Rcpp::traits::input_parameter< const bool& >::type verbose(verboseSEXP);
     rcpp_result_gen = Rcpp::wrap(calcIBD(popType, markerFile, mapFile, evalPos, evalDist, grid, verbose));
